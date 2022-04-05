@@ -11,4 +11,4 @@ https://product-review-arifphero4.netlify.app/
 - react.js
 - react router dom
 - tailwind css
-  -hero icons
+- hero icons
