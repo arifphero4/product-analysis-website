@@ -6,19 +6,19 @@ const Blogs = () => {
     {
       question: "1. What is context API?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil enim et blanditiis dolorum dolore aspernatur eaque provident. Modi eveniet repudiandae mollitia cumque, aliquid id. Autem ipsam officiis pariatur eos blanditiis nostrum? Sunt, sint expedita quas magni, tempora dolorum culpa totam quo minus necessitatibus minima doloremque, nobis quod. Corporis laudantium non at dolore. Culpa natus cumque inventore? Nam itaque ea eaque magni, expedita voluptatem officiis quos mollitia perspiciatis et molestias, quae illo, impedit ducimus tempore iure rerum! Placeat fuga voluptatem vero porro, culpa, praesentium qui aliquam fugiat et sed at omnis recusandae neque exercitationem unde maxime. Nesciunt quas eaque nobis.",
+        "Context api is a way to pass data throuth multiple component without passing props.For a more in-depth definition, it provides a way for you to make particlar data availabel to all component throughoute the component tree no matter how deeply nested that component may be.context API solves one major problem prop drilling. Even if you are not familiar with the term, if you have worked on a React.js-app, it has probably happened to you. Prop drillings is the processing of getting data from component A to component Z by passing it through multiple layers of intermediary React components.",
     },
     {
-      question: "2. What is semantic tag?",
+      question: "2. What are semantic tags in HTML?",
       answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil enim et blanditiis dolorum dolore aspernatur eaque provident. Modi eveniet repudiandae mollitia cumque, aliquid id. Autem ipsam officiis pariatur eos blanditiis nostrum? Sunt, sint expedita quas magni, tempora dolorum culpa totam quo minus necessitatibus minima doloremque, nobis quod. Corporis laudantium non at dolore. Culpa natus cumque inventore? Nam itaque ea eaque magni, expedita voluptatem officiis quos mollitia perspiciatis et molestias, quae illo, impedit ducimus tempore iure rerum! Placeat fuga voluptatem vero porro, culpa, praesentium qui aliquam fugiat et sed at omnis recusandae neque exercitationem unde maxime. Nesciunt quas eaque nobis.",
+        "Semantic tags are tags that enable browsers and developers to understand what they are used for by their names. Semantic tags are able to indicate by their name what they will be used for.  Example:- <form> , <table> , and <article>",
     },
-    {
-      question:
-        "3. What is the difference between inline inline-block and block elements?",
-      answer:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil enim et blanditiis dolorum dolore aspernatur eaque provident. Modi eveniet repudiandae mollitia cumque, aliquid id. Autem ipsam officiis pariatur eos blanditiis nostrum? Sunt, sint expedita quas magni, tempora dolorum culpa totam quo minus necessitatibus minima doloremque, nobis quod. Corporis laudantium non at dolore. Culpa natus cumque inventore? Nam itaque ea eaque magni, expedita voluptatem officiis quos mollitia perspiciatis et molestias, quae illo, impedit ducimus tempore iure rerum! Placeat fuga voluptatem vero porro, culpa, praesentium qui aliquam fugiat et sed at omnis recusandae neque exercitationem unde maxime. Nesciunt quas eaque nobis.",
-    },
+    // {
+    //   question:
+    //     "3. What is the difference between inline inline-block and block elements?",
+    //   answer:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nihil enim et blanditiis dolorum dolore aspernatur eaque provident. Modi eveniet repudiandae mollitia cumque, aliquid id. Autem ipsam officiis pariatur eos blanditiis nostrum? Sunt, sint expedita quas magni, tempora dolorum culpa totam quo minus necessitatibus minima doloremque, nobis quod. Corporis laudantium non at dolore. Culpa natus cumque inventore? Nam itaque ea eaque magni, expedita voluptatem officiis quos mollitia perspiciatis et molestias, quae illo, impedit ducimus tempore iure rerum! Placeat fuga voluptatem vero porro, culpa, praesentium qui aliquam fugiat et sed at omnis recusandae neque exercitationem unde maxime. Nesciunt quas eaque nobis.",
+    // },
   ];
   return (
     <div>
