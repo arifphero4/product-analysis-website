@@ -1,0 +1,8 @@
+.cheart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+h2 {
+    color: coral;
+}
