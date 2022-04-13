@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "../hooks/Header";
+import errorImg from "./../image/error.png";
 
 const NotFound = () => {
   return (
     <div>
-      <h1> PAGE NOT FOUND !</h1>
+      <Header></Header>
+      <img src={errorImg} alt="" />
     </div>
   );
 };

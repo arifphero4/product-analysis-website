@@ -16,11 +16,13 @@ const SingleReview = ({ review }) => {
         }}
         className="p-3 text-md font-bold text-gray-900"
       >
-        Rating: <span className="text-red-500 text-5xl">{description}</span>
+        <h4 className="text-xl font-medium">{email}</h4>
       </div>
       <div className="p-2">
-        <h4 className="text-xl font-medium">{email}</h4>
-        <div className="w-16 h-1 bg-red-700 mt-3"></div>
+        <p>
+          Rating: <span className="text-red-500 text-5xl">{description}</span>
+        </p>
+        <div className="w-10 h-1 bg-red-400 mt-3"></div>
       </div>
       <div className="p-2">
         <div className="flex items-center">

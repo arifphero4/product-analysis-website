@@ -52,12 +52,14 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="min-h-screen ">
-      <Header bg="bg-gray-50" bg2="bg-gray-900" />
-      <h2>Our business summary</h2>
-      <div className="cheart">
+    <div className="min-h-screen">
+      <Header></Header>
+      <h1 className="text-center mt-10 pt-16 text-5xl font-bold">
+        Our Business Summary
+      </h1>
+      <div className="cheart  p-8">
         <div>
-          <h2>month vs sell</h2>
+          <h2 className="text-center">month vs sell</h2>
           <LineChart width={500} height={300} data={data}>
             <XAxis dataKey="month"></XAxis>
             <Tooltip></Tooltip>
@@ -68,7 +70,7 @@ const Dashboard = () => {
           </LineChart>
         </div>
         <div>
-          <h2>investment vs revenue</h2>
+          <h2 className="text-center">investment vs revenue</h2>
           <BarChart width={500} height={300} data={data}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
